@@ -28,7 +28,7 @@
 <script setup>
 import { ref } from 'vue'
 
-let message = ref('Hello, Reactivity!')
+let message = ref('Yoooo, Reactivity!')
 let number = ref(1)
 
 function changeMessageToUpperCase() {
@@ -39,7 +39,6 @@ function incrementNumber() {
   number.value += 1
   console.log(number.value)
 }
-
 let wizard = ref({
   id: 1001,
   name: 'Harry Potter',
