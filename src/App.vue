@@ -8,7 +8,6 @@
   </StudentList>
 
   <hr />
-
   <el-table :data="todoList" stripe border style="width: 100%">
     <el-table-column prop="userId" label="User ID" width="180" />
     <el-table-column prop="id" label="ID" width="180" />
