@@ -5,7 +5,6 @@
     <button @click="updateMessage">Update message</button>
   </div>
 </template>
-
 <script setup>
 import { inject } from 'vue'
 
@@ -14,5 +13,4 @@ let { message: messageFromApp, updateMessage } = inject(
   'default message'
 )
 </script>
-
 <style scoped></style>
