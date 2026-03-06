@@ -23,6 +23,7 @@
       <button type="submit" :disabled="!isFormValid">Register</button>
     </form>
   </div>
+
   <hr />
   <div class="card">
     <h2>Name: {{ wizard1.name }}</h2>
@@ -36,6 +37,7 @@
     </button>
     <button @click="wizard1.age = 20">Change age</button>
   </div>
+  
 </template>
 
 <script setup>
