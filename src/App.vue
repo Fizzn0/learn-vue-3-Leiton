@@ -30,6 +30,7 @@
   </div>
   <!-- Since textarea is nested within div, mouseover textarea also means mouseover the parent div. -->
 
+
   <hr />
   <div>
     Press down the "Enter" key will trigger a console log print:
@@ -66,6 +67,7 @@
 import { ref } from 'vue'
 
 let message = ref('Hello, v-on!')
+
 
 function replaceText(msg) {
   message.value = msg
