@@ -7,6 +7,7 @@
     <button @click="number++">Increment number by 1</button>
   </div>
 
+
   <div class="card">
     <h1>Scenario 2: Watch a property in "ref(object)"</h1>
     <h2>Name: {{ wizard1.name }}</h2>
@@ -65,6 +66,7 @@ let wizard1 = ref({
     wood: 'Holly'
   }
 })
+
 
 function changeWizard1Wand() {
   wizard1.value.wand = {
