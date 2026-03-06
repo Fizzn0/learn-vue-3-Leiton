@@ -11,10 +11,11 @@
   </ul>
 </template>
 
+
 <script setup>
 import { ref } from 'vue'
 
-let message = ref('Hello, Array Change Detection!')
+let message = ref('YOYO, Array Change Detection!')
 
 const users = ref([
   { id: 1001, name: 'John Smith', age: 26, isActive: false },
