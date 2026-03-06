@@ -22,6 +22,7 @@
 import BlogPostList from '@/components/BlogPostList.vue'
 </script>
 
+
 <style lang="scss" scoped>
 .blog-posts-layout {
     display: flex;
