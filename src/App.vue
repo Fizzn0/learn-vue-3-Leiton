@@ -5,6 +5,7 @@
     can't go outside? What am I?
   </p>
 
+
   <button style="width: 200px" @click="showAnswer = !showAnswer">
     {{ !showAnswer ? 'Show me the answer!' : 'Hide the answer!' }}
   </button>
