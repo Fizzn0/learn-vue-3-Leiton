@@ -44,7 +44,7 @@
 <script setup>
 import { computed, ref } from 'vue'
 
-let message = ref('Hello, Computed Properties!')
+let message = ref('YOOO, Computed Properties!')
 
 const users = ref([
   { id: 1001, name: 'John Smith', age: 26, isActive: false },
