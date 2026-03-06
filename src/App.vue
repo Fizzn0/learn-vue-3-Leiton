@@ -31,6 +31,7 @@
     </tr>
   </table>
 
+
   <hr />
   <p>Use v-for to iterate through the properties of an object:</p>
   <div v-for="(value, key, index) in users[0]">
