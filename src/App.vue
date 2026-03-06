@@ -9,6 +9,7 @@
   ></BlogPost>
 </template>
 
+
 <script setup>
 import { ref } from 'vue'
 import BlogPost from './BlogPost.vue'
@@ -39,6 +40,7 @@ let posts = ref([
       'It’s no secret that the Harry Potter series is a global phenomenon, having been translated into over 80 languages to date....'
   }
 ])
+
 
 // The second argument from the BlogPost’s emit method will be passed as the first parameter of this method.
 function processDeletion(id) {

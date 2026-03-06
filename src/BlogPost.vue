@@ -27,11 +27,9 @@ const emit = defineEmits(['delete-blog-post'])
 function emitDeletePostEvent(id) {
   emit('delete-blog-post', id)
 }
-
 let blogPostTitle = defineModel('blogPostTitle') // blogPostTitle is a ref object
 let blogPostContent = defineModel('blogPostContent') // blogPostContent is a ref object
 </script>
-
 <style scoped>
 .blog-post {
   background-color: aqua;
