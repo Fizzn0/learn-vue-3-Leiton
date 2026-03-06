@@ -33,7 +33,8 @@
 <script setup>
 import { ref } from 'vue'
 
-let message = 'Hello, v-bind!'
+
+let message = 'Yoo, v-bind!'
 let imageUrl = ref('public/img/banner_1.jpg')
 
 function changeImg() {
