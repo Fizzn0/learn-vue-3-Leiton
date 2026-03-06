@@ -16,5 +16,4 @@
 <script setup>
 import BaseLayout from './BaseLayout.vue'
 </script>
-
 <style lang="scss" scoped></style>
