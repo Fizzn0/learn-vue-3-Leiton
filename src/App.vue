@@ -4,6 +4,7 @@
 
   <hr />
 
+
   <!--{{message}} refers to the message we defined in data-->
   <h1>number: {{ number }}</h1>
 
@@ -36,7 +37,7 @@
 </template>
 
 <script setup>
-let message = 'Hello, Vue!'
+let message = 'Wazzz up, Vue!'
 let number = 50
 
 function doubleNum(num) {
