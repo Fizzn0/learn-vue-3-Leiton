@@ -1,7 +1,7 @@
 <template>
   <h1>{{ message }}</h1>
   <div class="card">
-    <h2 ref="title">This is the App component.</h2>
+    <h2 ref="title">This is the sick App component.</h2>
     <h2>Number: {{ number }}</h2>
     <button @click="number++">Increment number by one</button>
     <button @click="isShow = !isShow">Toggle component1</button>
@@ -57,6 +57,7 @@ watch(number, () => {
   console.log('number changes!')
 })
 </script>
+
 
 <style scoped>
 .card {
